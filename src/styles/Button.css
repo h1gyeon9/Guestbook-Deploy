@@ -1,0 +1,61 @@
+.leaveAMessage{
+    display: inline-flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 8px;
+    border: 1px solid #2c2c2c;
+    background: #2c2c2c;
+
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 84px;
+}
+
+.readMore{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+
+    border-radius: 8px;
+    border: 1px solid #767676;
+    background-color: #FFFFFF;
+
+    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.delete{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #c00f0c;
+    background-color: #fdd3d0;
+
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.formSubmit{
+    align-self: stretch;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #2c2c2c;
+    background-color: #2c2c2c;
+
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+}
