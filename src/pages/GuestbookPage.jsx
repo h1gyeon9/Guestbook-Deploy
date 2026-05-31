@@ -18,8 +18,14 @@ function GuestbookPage(){
 
     // 목록 조회
     const loadGuestbooks = async () => {
-        const res = await getGuestbooks();
-        setGuestbooks(res.data);
+        try{
+            const res = await getGuestbooks();
+            setGuestbooks(res.data);
+        }
+        catch(err){
+            console.log(err);
+            alert(err.message);
+        }
     };
 
     // 처음 렌더 시 방명록 목록 불러오기
@@ -56,6 +62,7 @@ function GuestbookPage(){
             handleCloseLeaveGuestbook();
         }
         catch(err){
+            console.log(err);
             alert(err.message);
         }
     }
@@ -69,6 +76,7 @@ function GuestbookPage(){
             handleCloseDetail();
         }
         catch(err){
+            console.log(err);
             alert(err.message);
         }
     }
